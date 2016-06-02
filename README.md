@@ -1,5 +1,6 @@
 [basscss]: http://www.basscss.com
 [css-modules]: https://github.com/css-modules/css-modules
+[brent]: https://twitter.com/jxnblk
 
 # atomify ![draft](https://img.shields.io/badge/status-draft-blue.svg?style=flat-square)
 
@@ -7,11 +8,20 @@
 
 ![This might be a silly idea but I'm giving it a shot anyway](http://messages.hellobits.com/warning.svg?message=This%20might%20be%20a%20silly%20idea%20but%20I'm%20giving%20it%20a%20shot%20anyway)
 
-The idea is to use `atomify` to essentially do what [Basscss][basscss] proposes,
-which is to isolate common patterns into very small and focused classes that
-generate no side effects.
+## Why
 
-## Example
+In my opinion, [Brent Jackson][brent] nailed it with [Basscss][basscss]. It's
+a very practical response to CSS modularization, with no bullshit.
+
+The idea of isolating patterns into specific classes and composing them as you
+wish is simple but really powerful. If you have a solid design foundation, you
+can literally start iterating without having to make CSS changes whatsoever.
+
+Of course you can achieve that by explaining this concept to both developers and
+designers and sticking to it. This tool is just an attempt to automate that so
+you can apply this concept to code bases that already exist.
+
+## How it works
 
 Given the following input:
 
