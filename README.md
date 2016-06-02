@@ -64,6 +64,7 @@ Options:
 * How debugging would work?
 * How to generate a proper report for the compiled file?
 * How to sync dev vs. prod markup?
+* How to handle media queries?
 
 ## Contribute
 
