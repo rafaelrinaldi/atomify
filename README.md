@@ -1,4 +1,5 @@
 [basscss]: http://www.basscss.com
+[css-modules]: https://github.com/css-modules/css-modules
 
 # atomify
 
@@ -29,7 +30,7 @@ This tool would output:
 
 ```css
 ._15QFk {
-  width: 100 !important;
+  width: 100% !important;
 }
 
 .container {
@@ -41,6 +42,7 @@ This tool would output:
 ```
 
 * `_15QFk` it's just an unique id
+* We could even have pluggable algorithms to generate the class names (like [CSS Modules][css-modules] does), so `_15QFk` could be something like `w100`
 * `!important` could be optional but enforces the concept of immutable styles
 
 ## Usage
