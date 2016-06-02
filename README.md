@@ -1,7 +1,7 @@
 [basscss]: http://www.basscss.com
 [css-modules]: https://github.com/css-modules/css-modules
 
-# atomify
+# atomify ![draft](https://img.shields.io/badge/status-draft-blue.svg?style=flat-square)
 
 > Automatically atomify your CSS
 
