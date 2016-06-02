@@ -4,7 +4,7 @@
 
 > Automatically atomify your CSS
 
-![This might be a silly idea but it's something I'm giving it a shot anyway](http://messages.hellobits.com/warning.svg?message=This%20might%20be%20a%20silly%20idea%20but%20it's%20something%20I'm%20giving%20it%20a%20shot%20anyway)
+![This might be a silly idea but I'm giving it a shot anyway](http://messages.hellobits.com/warning.svg?message=This%20might%20be%20a%20silly%20idea%20but%20I'm%20giving%20it%20a%20shot%20anyway)
 
 The idea is to use `atomify` to essentially do what [Basscss][basscss] proposes,
 which is to isolate common patterns into very small and focused classes that
@@ -53,13 +53,13 @@ Usage: atomify input.css > output.css
 Options:
   -v    --version           Display current software version
   -h    --help              Display software help and usage details
-        --no-so-important   Do not append `!important` at the end of every rule
+        --not-so-important  Do not append `!important` at the end of every rule
 ```
 
 ## TBA
 
-* Is a build tool a good way to approach this? Maybe just being a "concept" is enough?
-* How debugging things would work?
+* Is a build tool a good way to approach this?
+* How debugging would work?
 * How to generate a proper report for the compiled file?
 * How to sync dev vs. prod markup?
 
